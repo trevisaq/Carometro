@@ -29,11 +29,11 @@ function Login() {
               <input type="checkbox"  />
               <label htmlFor="checkbox">Lembre-se de mim</label>
             </div>
-            <a href="https://youtu.be/xvFZjo5PgG0?si=29DA2YrtYhPb4dJe">Esqueceu sua senha?</a>
+            <a href="">Esqueceu sua senha?</a>
           </div>
 
           <div className="entrar">
-            <button className="botao" >ENTRAR</button>
+            <button className="botao">ENTRAR</button>
           </div>
 
           <div className="inscrevase">
