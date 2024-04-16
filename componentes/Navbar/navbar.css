@@ -1,0 +1,18 @@
+.header-navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: #781B1B;
+    width: 100vw;
+    justify-items: start;
+    align-items: center;
+    height: 35px;
+    color:white;
+
+    & p{
+        margin-left: 50px;
+    }
+
+    & h3{
+        margin-left: 20px;
+    }
+}

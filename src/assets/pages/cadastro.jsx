@@ -4,12 +4,12 @@ import '../../App.jsx';
 
 function Cadastro() {
   return (
-    <div className='pai'>
-      <header></header>
-        <div className='telaGeral'>
+    <div className='pai-cadastro'>
+      <header class="header-cadastro"></header>
+        <div className='telaGeral-cadastro'>
 
           <h2 className='tituloCadastro' >CADASTRO</h2>
-          <div className='cadastroGeral'>
+          <div className='cadastroGeral-cadastro'>
             
 
             <div className="cadastroE">

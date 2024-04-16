@@ -6,44 +6,34 @@ import idevicon from "../../img/IDEV.png"
 import ielecicon from "../../img/IELEC.png"
 import imecicon from "../../img/IMEC.png"
 import iconhome from "../../img/PERFIL.png"
+import Navbar from "../../../componentes/Navbar/navbar.jsx"
+import imagetroll from "../../img/IMAGETROLL.jpeg"
 
 
 
 function Home() {
   return (
-    <div className='pai'>
+    <div className='pai-home'>
 
-        
-      <header className='headerHome'><h3>Carômetro</h3> <p>Home</p> <p>Login</p> <p>Cadastro</p> <p>Alunos</p> <p>Turmas</p> <p>Perfil</p></header>
+      <Navbar></Navbar>
 
-      <div className='home-vermelha'>
-
-        <img className="logosenaihome" src={logosenai} alt="" />
-        <p className="subtitulo">Senai Shunji Nishimura</p>
-        <input type="text" placeholder='Buscar no Carômetro' className='inputhome' />
-
-      </div> 
-
-
-
-      <div className='bege'>
-        
-        
+      <div className='vermelho-home'>
+        <img  className="imagetroll" src={imagetroll}></img>
+        <img className='logosenai-home' src={logosenai}></img>
+        <img className='icon-home' src={iconhome}></img>
+      </div>
+      
+      <div className='vemelho-home2'>
+        <h3 className='subtitulo-home'>Senai Shunji Nishimura</h3>
+        <input type="text" className="inputprincpal-home" placeholder="Busque no Carômetro" />
       </div>
 
-{/* 
-      <div class="card1">
-        <img className="idevicon" src={idevicon} alt="" />
+
+    
+     
+
+      <div className='bege-home'>
       </div>
-
-      <div class="card2">
-        <img className="imecicon" src={imecicon} alt="" />
-      </div>
-
-      <div class="card3">
-        <img className="ielecicon" src={ielecicon} alt="" />
-      </div> */}
-
     </div>
   );
 }

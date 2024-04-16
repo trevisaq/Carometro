@@ -6,15 +6,15 @@ import logochave from "../../img/CHAVE.png"
 
 function Login() {
   return (
-    <div className="pai">
+    <div className="pai-login">
 
-      <div className="vermelho">
+      <div className="vermelho-login">
         <img className="logosenai" src={logosenai} alt="" />
         <img className="logochave" src={logochave} alt="" />
       </div>
 
-      <div className="branco">
-        <div className="geral">
+      <div className="branco-login">
+        <div className="geral-login">
 
           <h1>LOGIN</h1>
 
@@ -24,7 +24,7 @@ function Login() {
             <label htmlFor="senha" className="titulosinput" >Senha</label>
             <input type="password" className="inputprincpal" />
 
-          <div className="lembre">
+          <div className="lembre-login">
             <div className="check">
               <input type="checkbox"  />
               <label htmlFor="checkbox">Lembre-se de mim</label>
@@ -33,7 +33,7 @@ function Login() {
           </div>
 
           <div className="entrar">
-            <button className="botao">ENTRAR</button>
+            <button className="botao-login">ENTRAR</button>
           </div>
 
           <div className="inscrevase">
