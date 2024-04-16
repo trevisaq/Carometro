@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.jsx";
-import "../../App.css";
+import "./login.css";
 import logosenai from "../../img/SENAI.png"
 import logochave from "../../img/CHAVE.png"
 

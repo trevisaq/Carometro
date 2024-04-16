@@ -1,4 +1,5 @@
 import React from 'react';
+import './cadastro.css'
 import '../../App.jsx';
 
 function Cadastro() {
