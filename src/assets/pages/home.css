@@ -68,3 +68,55 @@
     width: auto;
     color:white;
 }
+
+.cards-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px ;
+    width: 21vw;
+    height: 22vw;
+
+}
+
+.card1-branco, .card2-branco, .card3-branco{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 13vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card1-vermelho, .card2-vermelho, .card3-vermelho{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card1-vermelho, .card3-vermelho{
+    background-color: #FF3E3E;
+}
+
+.card2-vermelho{
+    background-color: #781B1B;
+}
+
+.idevicon, .ielecicon, .imecicon{
+    width: 32%;
+}

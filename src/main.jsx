@@ -12,15 +12,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/login",
     element: <Login />
   },
   {
-    path: "/Cadastro",
+    path: "/cadastro",
     element: <Cadastro />
   },
   {
-    path: "/Home",
+    path: "/home",
     element: <Home />
   },
 ])

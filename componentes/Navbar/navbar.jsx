@@ -4,12 +4,12 @@ export default function Navbar() {
         <>
         <div>
             <header className='header-navbar'> 
-                <h3>Cadastro</h3>
-                <p>Home</p>
-                <p>Login</p>
-                <p>Cadastro</p>
+                <h3>Carômetro</h3>
+                <p onClick={()=>window.location.href =`/home`}>Home</p>
+                <p onClick={()=>window.location.href =`/login`}>Login</p>
+                <p onClick={()=>window.location.href =`/cadastro`}>Cadastro</p>
                 <p>Alunos</p>
-                <p>Turmas</p>
+                <p onClick={()=>window.location.href =`/home`}>Turmas</p>
                 <p>Perfil</p>
             </header>
         </div>
