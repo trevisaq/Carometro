@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px ;
+    width: 21vw;
+    height: 25vw;
+
+}
+
+.card-branco{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 13vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-vermelho{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 18vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FF3E3E;
+}

@@ -33,7 +33,7 @@ function Login() {
           </div>
 
           <div className="entrar">
-            <button className="botao-login">ENTRAR</button>
+            <button onClick={()=>window.location.href ='/home'} className="botao-login">ENTRAR</button>
           </div>
 
           <div className="inscrevase">
