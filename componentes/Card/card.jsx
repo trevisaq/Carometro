@@ -6,7 +6,7 @@ export default function Card({titulo, titulo2, informacao1, informacao2, informa
         <div className='card'>
             <div className='card-branco'>
 
-              <img className='iconesala-home' src={icone}></img>
+              <img className='iconesala' src={icone}></img>
               <h3>{titulo}</h3>
               <h3>{titulo2}</h3>
             </div>

@@ -16,7 +16,7 @@ function Login() {
       <div className="branco-login">
         <div className="geral-login">
 
-          <h1>LOGIN</h1>
+          <h1 className="h1-login">LOGIN</h1>
 
             <label htmlFor="usuario" className="titulosinput" >Usuário</label>
             <input type="text" className="inputprincpal" />

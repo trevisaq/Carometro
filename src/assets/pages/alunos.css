@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.bege-login{
+    background-color: #ffe4e1;
+    height: 100%;
+}
+
+.vermelho-alunos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #AD3333;
+    height: auto;
+    color:white;
+}
+
+
+.pai-alunos{
+    height: 100%;
+}
+
+.logo-idev{
+    height: 70px;
+}
+
+.bege-alunos{
+    background-color: #FFE4E1;
+    height: 70%;
+}
+
+.icon-login{
+    width: 4.8%;
+    cursor: pointer;
+}
+

@@ -19,10 +19,10 @@ function Home() {
         text3="Cadastro"
         url3="/cadastro"
         text4="Alunos"
-        url4=""
+        url4="/alunos"
         text5="Turmas"
         url5=""
-      ></Navbar>
+      />
 
       <div className="vermelho-home">
         <img className="imagetroll" src={imagetroll}></img>

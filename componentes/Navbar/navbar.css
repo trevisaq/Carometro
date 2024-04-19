@@ -8,12 +8,17 @@
     height: 35px;
     color:white;
 
-    & p{
-        margin-left: 50px;
-        cursor: pointer;
-    }
-
     & h3{
         margin-left: 20px;
     }
+}
+
+.titulonavbar{
+    user-select: none;
+}
+
+.textonavbar{
+    margin-left: 50px;
+    color:aliceblue;
+    text-decoration: none;
 }

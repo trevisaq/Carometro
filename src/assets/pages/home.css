@@ -17,7 +17,7 @@
 
 .bege-home{
     background-color: #ffe4e1;
-    height: 80%;
+    height: 100%;
 }
 
 .logosenai-home{
@@ -27,7 +27,8 @@
 
 .icon-home{
     width: 4.8%;
-    margin-top: 12px
+    margin-top: 12px;
+    cursor: pointer;
 }
 
 .icon-home-div{
@@ -51,6 +52,7 @@
 
 .subtitulo-home{
     margin-bottom: 12px;
+    user-select: none;
 }
 
 
@@ -77,7 +79,3 @@
     height: 100%;
 }
 
-
-.iconesala-home{
-    width: 32%;
-}

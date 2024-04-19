@@ -29,7 +29,7 @@
     width: 50vw;
 }
 
-h1{
+.h1-login{
     font-weight: bold;
     display: flex;
     justify-content: center;
