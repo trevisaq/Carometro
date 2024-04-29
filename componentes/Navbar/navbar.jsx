@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import './navbar.css'
-export default function Navbar({titulo, text1, text2, text3, text4, text5, text6, url1, url2, url3, url4, url5}) {
+export default function Navbar({titulo, text1, text2, text3, text4, text5, url1, url2, url3, url4, url5}) {
     return(
         <div>
             <header className='header-navbar'> 

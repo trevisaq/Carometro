@@ -29,12 +29,14 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #FF3E3E;
-
-    & p{
-        cursor: pointer;
-    }
 }
 
+
+.informacao-card{
+        cursor: pointer;
+        text-decoration: none;
+        color: aliceblue;
+}
 
 .iconesala{
     width: 32%;

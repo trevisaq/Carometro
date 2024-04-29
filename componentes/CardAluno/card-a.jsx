@@ -1,0 +1,9 @@
+import "./card-a.css"
+export default function CardAlunos({nome, icone}){
+    return(
+        <div className="card-alunos">
+            <img className="img-alunos" src={icone}></img>
+            <h4>{nome}</h4>
+        </div>
+    )
+}

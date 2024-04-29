@@ -37,31 +37,40 @@ function Home() {
       <div className="bege-home">
         <div className="cards-home">
           <Card
-            icone={"../src/img/IDEV.png"}
+            iconel={"../src/img/IDEV.png"}
             titulo={"Desenvolvimento de"}
             titulo2={"sistemas"}
             informacao1={"IDEV - 1"}
+            link1={""}
             informacao2={"IDEV - 2"}
+            link2={"/alunos"}
             informacao3={"IDEV - 3"}
+            link3={""}
           ></Card>
 
           <Card
-            icone={"../src/img/IMEC.png"}
+            iconel={"../src/img/IMEC.png"}
             titulo={"Mecânica"}
             titulo2={""}
             cor="#781B1B"
             informacao1={"IMEC - 1"}
+            link1={""}
             informacao2={"IMEC - 2"}
+            link2={""}
             informacao3={"IMEC - 3"}
+            link3={""}
           ></Card>
 
           <Card
-            icone={"../src/img/IELEC.png"}
+            iconel={"../src/img/IELEC.png"}
             titulo={"Eletroeletrônica"}
             titulo2={""}
             informacao1={"IELE - 1"}
+            link1={""}
             informacao2={"IELE - 2"}
+            link2={""}
             informacao3={"IELE - 3"}
+            link3={""}
           ></Card>
         </div>
       </div>
