@@ -1,0 +1,9 @@
+.barrainfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #AD3333;
+    height: auto;
+    color:white;
+}

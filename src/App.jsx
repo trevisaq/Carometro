@@ -1,9 +1,10 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import Home from './assets/pages/Home.jsx';
 import Login from './assets/pages/login.jsx';
-import Cadastro from './assets/pages/cadastro.jsx'
-import Alunos from './assets/pages/alunos.jsx'
+import Cadastro from './assets/pages/cadastro.jsx';
+import Idev2 from './assets/pages/idev2.jsx';
+import Aluno1 from './assets/pages/aluno1.jsx';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/cadastro" element={<Cadastro />} />
-        <Route path="/alunos" element={<Alunos />} />
+        <Route path="/cadastro" element={<Cadastro />} /> 
+        <Route path="/idev2" element={<Idev2 />} />
+        <Route path="/aluno1" element={<Aluno1 />} />
       </Routes>
     </BrowserRouter>
   );

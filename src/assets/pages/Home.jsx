@@ -7,7 +7,7 @@ import imagetroll from "../../img/IMAGETROLL.jpeg";
 import Navbar from "../../../componentes/Navbar/navbar.jsx";
 import Card from "../../../componentes/Card/card.jsx";
 
-function Home() {
+export default function Home() {
   return (
     <div className="pai-home">
       <Navbar
@@ -19,7 +19,7 @@ function Home() {
         text3="Cadastro"
         url3="/cadastro"
         text4="Alunos"
-        url4="/alunos"
+        url4="/idev2"
         text5="Turmas"
         url5=""
       />
@@ -43,7 +43,7 @@ function Home() {
             informacao1={"IDEV - 1"}
             link1={""}
             informacao2={"IDEV - 2"}
-            link2={"/alunos"}
+            link2={"/idev2"}
             informacao3={"IDEV - 3"}
             link3={""}
           ></Card>
@@ -78,4 +78,4 @@ function Home() {
   );
 }
 
-export default Home;
+
