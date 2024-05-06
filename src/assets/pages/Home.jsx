@@ -6,6 +6,7 @@ import iconhome from "../../img/PERFIL.png";
 import imagetroll from "../../img/IMAGETROLL.jpeg";
 import Navbar from "../../../componentes/Navbar/navbar.jsx";
 import Card from "../../../componentes/Card/card.jsx";
+import BarraInfo from "../../../componentes/BarraInfo/barrainfo.jsx";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         url5=""
       />
 
-      <div className="vermelho-home">
+      {/* <div className="vermelho-home">
         <img className="imagetroll" src={imagetroll}></img>
         <img className="logosenai-home" src={logosenai}></img>
         <img onClick={()=>window.location.href ='/login'} className="icon-home" src={iconhome}></img>
@@ -32,7 +33,20 @@ export default function Home() {
 
       <div className="vemelho-home2">
         <h3 className="subtitulo-home">Senai Shunji Nishimura</h3>
-      </div>
+      </div> */}
+
+      <BarraInfo
+       img1="../src/img/IMAGETROLL.png"
+       cssimg1="imagetroll"
+       img2="../src/img/SENAI.png"
+       cssimg2="logosenai-home"
+       img3="..src/img/PERFIL.png"
+       cssimg3="icon-home"/>
+       
+      <BarraInfo
+       th3="Senai Shunji Nishimura"
+       cssth3="subtitulo-home"/>
+       
 
       <div className="bege-home">
         <div className="cards-home">
@@ -45,8 +59,7 @@ export default function Home() {
             informacao2={"IDEV - 2"}
             link2={"/idev2"}
             informacao3={"IDEV - 3"}
-            link3={""}
-          ></Card>
+            link3={""}/>
 
           <Card
             iconel={"../src/img/IMEC.png"}
@@ -58,8 +71,7 @@ export default function Home() {
             informacao2={"IMEC - 2"}
             link2={""}
             informacao3={"IMEC - 3"}
-            link3={""}
-          ></Card>
+            link3={""}/>
 
           <Card
             iconel={"../src/img/IELEC.png"}
@@ -70,8 +82,7 @@ export default function Home() {
             informacao2={"IELE - 2"}
             link2={""}
             informacao3={"IELE - 3"}
-            link3={""}
-          ></Card>
+            link3={""}/>
         </div>
       </div>
     </div>
