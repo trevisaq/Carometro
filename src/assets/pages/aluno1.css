@@ -55,13 +55,39 @@
 .botoes-alunosindividuais{
     flex-direction: row;
     display: flex;
-    width: 50%;
+    width: 90%;
     justify-content: space-evenly;
     
 }
 
 .botao-aluno{
     height: 50px;
-    width: 120px;
+    width: 190px;
+    background-color: #FF3E3E;
+    font-size: large;
     color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.ocorrencias{
+    background-color: #AD3333;
+    height: 25vh;
+    width: 95vw;
+    border-radius: 20px;
+}
+
+.bege-aluno1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.ocorrencias-texto{
+    color: white;
+    font-size: larger;
+    margin: 10px;
+
 }

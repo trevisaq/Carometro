@@ -1,8 +1,6 @@
-
 import "./aluno1.css";
 import Navbar from "../../../componentes/Navbar/navbar";
 import BarraInfo from "../../../componentes/BarraInfo/barrainfo";
-import imagetroll from "../../img/IMAGETROLL.jpeg";
 
 export default function Aluno1(){
     return(
@@ -21,10 +19,9 @@ export default function Aluno1(){
                 text5="Turmas"
                 url5=""
                 />
-
-                <div className="barrainfo">
-                    <h1>Aluno - Giovani Canella de Souza - IDEV2</h1>
-                </div>
+                
+                <BarraInfo
+                th1="Aluno - Giovani Canella de Souza - IDEV2" />
 
 
 
@@ -48,7 +45,7 @@ export default function Aluno1(){
                         </div>
                     </div>
                     <div className="ocorrencias">
-                        <h3>Ocorrencias</h3>
+                        <p className="ocorrencias-texto">Ocorrências:</p>
                     </div>
                 </div>
             </div>

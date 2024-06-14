@@ -1,3 +1,4 @@
+// Importações - >
 import React from "react";
 import "../../App.jsx";
 import "./home.css";
@@ -21,7 +22,7 @@ export default function Home() {
         url3="/cadastro"
         text4="Alunos"
         url4="/idev2"
-        text5="Turmas"
+        text5="Turmas" 
         url5=""
       />
 
@@ -36,19 +37,19 @@ export default function Home() {
       </div> */}
 
       <BarraInfo
-       img1="../src/img/IMAGETROLL.png"
+       img1={imagetroll}
        cssimg1="imagetroll"
-       img2="../src/img/SENAI.png"
+       img2={logosenai}
        cssimg2="logosenai-home"
-       img3="..src/img/PERFIL.png"
+       img3={iconhome}
        cssimg3="icon-home"/>
        
       <BarraInfo
        th3="Senai Shunji Nishimura"
-       cssth3="subtitulo-home"/>
+       cssth3="subtitulo-home"/> 
        
 
-      <div className="bege-home">
+      <div className="bege-home"> 
         <div className="cards-home">
           <Card
             iconel={"../src/img/IDEV.png"}

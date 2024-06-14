@@ -1,11 +1,9 @@
-import React from 'react';
-import './cadastro.css'
-import '../../App.jsx';
+import './cadastro.css' // Importa o css da página "cadastro"
 
 function Cadastro() {
   return (
     <div className='pai-cadastro'>
-      <header class="header-cadastro"></header>
+      <header class="header-cadastro"></header> 
         <div className='telaGeral-cadastro'>
 
           <h2 className='tituloCadastro' >CADASTRO</h2>

@@ -1,5 +1,5 @@
-import "./card.css"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom" // Importa a biblioteca "Link" do react router dom
+import "./card.css" // Importa o css do card
 
 export default function Card({titulo, titulo2, informacao1, informacao2, informacao3, link1, link2, link3, cor, iconel}) {
     return(

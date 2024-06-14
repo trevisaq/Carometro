@@ -3,6 +3,7 @@ import Navbar from "../../../componentes/Navbar/navbar";
 import IdevB from "../../img/IDEVB.png";
 import iconalunos from "../../img/PERFIL.png";
 import CardAlunos from "../../../componentes/CardAluno/card-a";
+import BarraInfo from "../../../componentes/BarraInfo/barrainfo";
 
 function Idev2() {
   return (
@@ -21,11 +22,20 @@ function Idev2() {
         url5=""
       />
 
-      <div className="vermelho-alunos">
+      {/* <div className="vermelho-alunos">
         <img className="logo-idev" src={IdevB} alt="" />
         <h1>Desenvolvimetos de sistemas 2023 - IDEV2</h1>
         <img className="icon-login" src={iconalunos}></img>
-      </div>
+      </div> */}
+
+      <BarraInfo
+      img1={IdevB}
+      cssimg1="logo-idev"
+      th1="Desenvolvimento de sistemas 2023 - IDEV2"
+      cssth1="titulo-idev"
+      img2={iconalunos}
+      cssimg2="icon-login"
+      />
 
       <div className="bege-alunos">
         <div className="cards-alunos">
